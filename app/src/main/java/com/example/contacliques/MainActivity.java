@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         btnAdicionar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                num++;  
+                num++;
                 txtCont.setText("Quantidade: " + num);
             }
         });
